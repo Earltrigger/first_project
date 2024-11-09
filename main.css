@@ -4,6 +4,58 @@
   box-sizing: border-box;
 }
 
-.gri-container{
+.grid-container{
   display: grid;
+  align-self: center;
+  justify-content: center;
+  padding-top: 25px;
+
 }
+.grid-item{
+  border:1px solid black;
+  border-radius: 30px;
+  display: inline-block;
+  width: 800px;
+  padding: 10px; 
+}
+
+.navbar{
+  padding-bottom: 40px;
+  display:block
+
+}
+
+.header{
+  text-align: center;
+}
+
+.grid-item .srch{
+  float: left;
+}
+.grid-item .mic{
+  float: right;
+}
+.grid-item .pic{
+  float: left;
+}
+
+.navbar{
+  padding: 10px;
+}
+.nav .rg{
+  float: right;
+}
+.nav .reg{
+  float: right;
+  text-decoration: none;
+}
+.nav .re{
+  float: right;
+  text-decoration: none;
+}
+.nav .e{
+  text-decoration: none;
+}
+
+
+
