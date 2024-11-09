@@ -4,109 +4,36 @@
     <head>
         <title>Register for Web Design Course</title>
         <meta charset="UTF-8">
-        <meta name="keywords" content="HTML, CSS, JavaScript">
-        <meta name="description" content="Netisens Web Dev">
-        <meta name="author" content="Netisens Students">
-        <!-- meta http-equiv="refresh" content="5" -->
         <!-- Responsiveness -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <!-- CSS Files -->
-        <link rel="stylesheet" href="signup.css">
+        <link rel="stylesheet" href="main.css">
     </head>
 
-    <body style="margin: 0;">
+    <body>
         
-        <nav class="navbar">
-            <ul class="topnav">
-                <li><a class="active" href="#home">Home</a></li>
-                <li><a href="#news">News</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li class="right"><a href="#about">About</a></li>
-            </ul>              
-        </nav>
-        <div id="header">
-            <h1>Register for Web Design Course</h1>
+        <div class="header">
+            <h1>Google</h1>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <h1>
+                        <i class="bi bi-search"></i> 
+                    </h1>
+                    <h1 class="mic">
+                        <i class="bi bi-mic"></i>
+                    </h1>
+                    <h1 class="pic">
+                        <i class="bi bi-camera-fill"></i>
+                    </h1>
+
+                    
+
+                </div>
+            </div>
         </div>
+        
 
-        <div id="form">
-            <form method="post" action="#">
-                <label for="firstname">Firstname:</label><br>
-                <input type="text" name="firstname" id="firstname" placeholder="Type Your Firstname" required style="margin-bottom: 10px;">
-
-                <br>
-
-                <label for="lastname">Lastname:</label><br>
-                <input type="text" name="lastname" id="lastname" placeholder="Your Lastname" required style="margin-bottom: 10px;">
-
-                <br>
-
-                <label for="email">Email:</label><br>
-                <input type="text" name="email" id="email" placeholder="Your Email" disabled value="uche@elanhub.net" style="margin-bottom: 10px;">
-
-                <br>
-
-                <label for="phone">Phone Number:</label><br>
-                <input type="tel" name="tel" id="phone" placeholder="Your Phone Number" required style="margin-bottom: 10px;">
-
-                <br>
-
-                <label for="password">Create Password:</label><br>
-                <input type="password" name="password" id="password" placeholder="Your Password" required style="margin-bottom: 10px;">
-
-                <br>
-
-                <p>Gender:</p>
-                <label class="radiobutton">Male
-                    <input type="radio" name="radio">
-                    <span class="selected"></span>
-                </label>
-                <label class="radiobutton">Female
-                    <input type="radio" name="radio">
-                    <span class="selected"></span>
-                </label>
-                
-                <br>
-
-                <p>Which of these do you have? (Check all that appply)</p>
-
-                <label class="container">One
-                    <input type="checkbox">
-                    <span class="checkmark"></span>
-                </label>
-                  
-                <label class="container">Two
-                    <input type="checkbox">
-                    <span class="checkmark"></span>
-                </label>
-                  
-                <label class="container">Three
-                    <input type="checkbox">
-                    <span class="checkmark"></span>
-                </label>
-                  
-                <label class="container">Four
-                    <input type="checkbox">
-                    <span class="checkmark"></span>
-                </label>
-                <br><br>
-
-                <label for="state">State of Origin: (South-south only)</label><br><br>
-                <select id="state" name="state">
-                    <option value="#">Select one...</option>
-                    <option value="akwaibom">Akwa Ibom</option>
-                    <option value="bayelsa">Bayelsa</option>
-                    <option value="edo">Edo</option>
-                    <option value="delta">Delta</option>
-                    <option value="rivers">Rivers</option>
-                    <option value="crossriver">Cross River</option>
-                </select>
-                <br>
-                <br>
-
-                <input type="submit" value="Sign Up">
-                <input type="reset" value="Reset">
-            </form>
-        </div>
+        
     </body>
 </html>
