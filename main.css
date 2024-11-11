@@ -3,13 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+.header{
+  text-align: center;
+  padding-top: 70px;
+}
 
 .grid-container{
   display: grid;
   align-self: center;
   justify-content: center;
   padding-top: 25px;
-
 }
 .grid-item{
   border:1px solid black;
@@ -18,17 +21,6 @@
   width: 800px;
   padding: 10px; 
 }
-
-.navbar{
-  padding-bottom: 40px;
-  display:block
-
-}
-
-.header{
-  text-align: center;
-}
-
 .grid-item .srch{
   float: left;
 }
@@ -38,24 +30,44 @@
 .grid-item .pic{
   float: left;
 }
+.offerd{
+  text-align: center;
+  padding-top: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
 
-.navbar{
-  padding: 10px;
+.link{
+  justify-content: center;
+  display: flex;
+  padding-top: 20px;
+  cursor: pointer;
 }
-.nav .rg{
-  float: right;
+.link a:hover{
+  background-color:greenyellow;
 }
-.nav .reg{
-  float: right;
+.link a{
   text-decoration: none;
+  padding-inline: 10px;
+  border-radius: 10px;
+  transition:0.4s ease-in-out;
+  color: black;
+  font-family: arial;
+  font-weight: bold;
 }
-.nav .re{
-  float: right;
-  text-decoration: none;
+.div-cont{
+  display: grid;
+  border:1px solid black; ; 
 }
-.nav .e{
-  text-decoration: none;
+
+.div-itemm{
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid black;
+  padding-left: 40px;
 }
+
+
 
 
 
