@@ -6,6 +6,8 @@
 .header{
   text-align: center;
   padding-top: 70px;
+  color: white;
+  font-family: 'Times New Roman';
 }
 
 .grid-container{
@@ -35,6 +37,7 @@
   padding-top: 20px;
   font-weight: bold;
   font-size: 20px;
+  color: whitesmoke;
 }
 
 .link{
@@ -51,21 +54,86 @@
   padding-inline: 10px;
   border-radius: 10px;
   transition:0.4s ease-in-out;
-  color: black;
+  color:blue;
   font-family: arial;
   font-weight: bold;
 }
 .div-cont{
-  display: grid;
-  border:1px solid black; ; 
+  display: grid; 
 }
 
 .div-itemm{
   border-left: none;
   border-right: none;
-  border-bottom: 1px solid black;
-  padding-left: 40px;
+  margin-left: 20px;
+  color: whitesmoke;
 }
+.div-itemm .first{
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+}
+.div-itemm .second{
+  border-bottom: 1px solid white;
+}
+.div-itemm .third{
+  border-bottom: 1px solid white;
+}
+.div-itemm .fourth{
+  border-bottom: 1px solid white;
+}
+.div-itemm .fifth{
+  border-bottom: 1px solid white;
+}
+
+.grid-con{
+  display: grid;
+  grid-template-columns: 7, 1f;
+}
+
+.body{
+  background-color:rgba(14, 13, 13, 0.742);
+}
+
+.footer{
+  justify-content: center;
+  display: flex;
+  padding-top: 20px;
+  cursor: pointer;
+}
+.footer a:hover{
+  background-color:greenyellow;
+}
+.footer a{
+  text-decoration: none;
+  padding-inline: 10px;
+  border-radius: 10px;
+  transition:0.4s ease-in-out;
+  color:whitesmoke;
+  font-family: arial;
+  font-weight: bold;
+}
+
+.foote{
+  justify-content: center;
+  display: flex;
+  padding-top: 20px;
+  cursor: pointer;
+}
+.foote a:hover{
+  background-color:greenyellow;
+}
+.foote a{
+  text-decoration: none;
+  padding-inline: 10px;
+  border-radius: 10px;
+  transition:0.4s ease-in-out;
+  color:whitesmoke;
+  font-family: arial;
+  font-weight: bold;
+}
+
+
+
 
 
 
