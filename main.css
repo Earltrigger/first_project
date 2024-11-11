@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-.header{
+.header 'h1{
   text-align: center;
   padding-top: 70px;
   color: white;
